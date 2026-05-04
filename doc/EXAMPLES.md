@@ -1,4 +1,4 @@
-# Usage Examples - UE Simulator 5G/6G
+# Usage Examples - UE Simulator 5G
 
 This document provides practical examples of using the UE Simulator.
 
@@ -34,7 +34,7 @@ int main() {
 **Output:**
 ```
 ╔════════════════════════════════════════╗
-║   UE SIMULATOR 5G/6G - L2 STACK       ║
+║   UE SIMULATOR 5G - L2 STACK          ║
 ║   3GPP TS 38.321/322/323 Compliant    ║
 ╚════════════════════════════════════════╝
 

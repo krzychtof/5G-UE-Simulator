@@ -1,6 +1,6 @@
-# 5G/6G UE Simulator - L2 Protocol Stack
+# 5G UE Simulator - L2 Protocol Stack
 
-A high-quality C++17 implementation of a User Equipment (UE) simulator for 5G/6G networks, compliant with 3GPP specifications (TS 38.321, 38.322, 38.323).
+A high-quality C++17 implementation of a User Equipment (UE) simulator for 5G networks, compliant with 3GPP specifications (TS 38.321, 38.322, 38.323).
 
 **New to this project?** Start with [doc/HOW_IT_WORKS.md](doc/HOW_IT_WORKS.md) for a simple, straightforward explanation.
 
@@ -29,7 +29,7 @@ See [doc/HOW_IT_WORKS.md](doc/HOW_IT_WORKS.md) for:
 - No technical jargon - anyone can understand
 
 **Quick Summary:**
-This simulator pretends to be a 5G phone, showing exactly how data gets packaged, queued, and sent - perfect for understanding L2 protocol stack behavior in 5G/6G networks.
+This simulator pretends to be a 5G phone, showing exactly how data gets packaged, queued, and sent - perfect for understanding L2 protocol stack behavior in 5G networks.
 
 ---
 
@@ -37,7 +37,7 @@ This simulator pretends to be a 5G phone, showing exactly how data gets packaged
 
 ### Layer 2 (L2) Protocol Stack Explained
 
-In 5G/6G networks, **Layer 2 (Data Link Layer)** is divided into 3 sub-layers. Data from your apps goes through these sub-layers before being transmitted over the air. Think of it like preparing a package for shipping:
+In 5G networks, **Layer 2 (Data Link Layer)** is divided into 3 sub-layers. Data from your apps goes through these sub-layers before being transmitted over the air. Think of it like preparing a package for shipping:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -120,7 +120,7 @@ TIME: 0ms - You send a photo (1000 bytes)
 
 **Why is Layer 2 split into 3 sub-layers?**
 
-In 5G/6G, Layer 2 (Data Link Layer) is divided into 3 sub-layers for better organization. Each sub-layer has a specific job (Single Responsibility Principle):
+In 5G, Layer 2 (Data Link Layer) is divided into 3 sub-layers for better organization. Each sub-layer has a specific job (Single Responsibility Principle):
 
 1. **PDCP** = Security & Compression Expert
    - Knows about encryption and compression
@@ -564,7 +564,7 @@ cd build
 
 ```
 ╭────────────────────────────────────────╮
-│   UE SIMULATOR 5G/6G - L2 STACK       │
+│   UE SIMULATOR 5G - L2 STACK          │
 │   3GPP TS 38.321/322/323 Compliant    │
 ╰────────────────────────────────────────╯
 
@@ -668,15 +668,12 @@ Key metrics from real execution:
 - [x] Design patterns (Facade, Observer, DI)
 - [x] Clean code architecture
 
-### 🔮 Future Extensions (6G)
+### 🔮 Future Extensions
 - [ ] RLC AM mode with ARQ
 - [ ] HARQ (Hybrid ARQ)
-- [ ] Beam management
-- [ ] AI/ML-based scheduling
 - [ ] DPDK integration
 - [ ] Network slicing support
 - [ ] Ultra-low latency mode (<1ms)
-- [ ] Massive MIMO support
 
 ---
 
@@ -720,7 +717,7 @@ Key metrics from real execution:
 
 This simulator is designed for:
 
-- **Educational Purposes**: Understanding L2 protocol stack in 5G/6G networks
+- **Educational Purposes**: Understanding L2 protocol stack in 5G networks
 - **Protocol Testing**: Validate MAC, RLC, PDCP implementations
 - **Development Support**: Rapid prototyping without physical devices
 - **Research**: Experiment with scheduling algorithms and optimizations

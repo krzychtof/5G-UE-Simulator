@@ -7,10 +7,10 @@ A straightforward, no-nonsense explanation of what this simulator does and how i
 ## 🎯 What Is This Simulator?
 
 **In Simple Terms:**
-This is a software that simulates how a mobile phone (User Equipment - UE) sends data in 5G/6G networks.
+This is a software that simulates how a mobile phone (User Equipment - UE) sends data in 5G networks.
 
 **Why Do We Need It?**
-- Testing 5G/6G software **without real phones** (saves money)
+- Testing 5G software **without real phones** (saves money)
 - Testing **without real network** (faster development)
 - Educational purposes - understanding L2 protocol stack
 - Developers can test new features before deploying to real networks
@@ -492,7 +492,7 @@ RESULT:
 
 ## 🚀 In One Sentence
 
-**This simulator pretends to be a 5G phone, showing exactly how data gets packaged, queued, and sent - perfect for understanding L2 protocol stack behavior in 5G/6G networks.**
+**This simulator pretends to be a 5G phone, showing exactly how data gets packaged, queued, and sent - perfect for understanding L2 protocol stack behavior in 5G networks.**
 
 ---
 

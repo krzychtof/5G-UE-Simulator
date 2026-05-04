@@ -1,4 +1,4 @@
-# Class Diagram - UE Simulator 5G/6G
+# Class Diagram - UE Simulator 5G
 
 ## Overview
 This document describes the class relationships and design patterns used in the simulator.

@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-Get the UE Simulator 5G/6G running in 5 minutes!
+Get the UE Simulator 5G running in 5 minutes!
 
 ---
 
@@ -53,7 +53,7 @@ make -j$(nproc)
 
 ```
 ╭────────────────────────────────────────╮
-│   UE SIMULATOR 5G/6G - L2 STACK       │
+│   UE SIMULATOR 5G - L2 STACK          │
 │   3GPP TS 38.321/322/323 Compliant    │
 ╰────────────────────────────────────────╯
 

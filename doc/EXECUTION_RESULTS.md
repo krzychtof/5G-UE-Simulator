@@ -20,7 +20,7 @@ This document shows real execution results and detailed flow diagrams of the UE 
 -- Found Threads: TRUE
 
 -- ===========================================
--- UE Simulator 5G/6G - 3GPP Compliant
+-- UE Simulator 5G - 3GPP Compliant
 -- ===========================================
 -- C++ Standard: 17
 -- Build Type: 
@@ -53,7 +53,7 @@ This document shows real execution results and detailed flow diagrams of the UE 
 
 ```
 ╔════════════════════════════════════════╗
-║   UE SIMULATOR 5G/6G - L2 STACK       ║
+║   UE SIMULATOR 5G - L2 STACK          ║
 ║   3GPP TS 38.321/322/323 Compliant    ║
 ╚════════════════════════════════════════╝
 

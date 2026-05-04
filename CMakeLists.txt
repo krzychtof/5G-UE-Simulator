@@ -78,7 +78,7 @@ endif()
 
 # Build information
 message(STATUS "===========================================")
-message(STATUS "UE Simulator 5G/6G - 3GPP Compliant")
+message(STATUS "UE Simulator 5G - 3GPP Compliant")
 message(STATUS "===========================================")
 message(STATUS "C++ Standard: ${CMAKE_CXX_STANDARD}")
 message(STATUS "Build Type: ${CMAKE_BUILD_TYPE}")
