@@ -1,5 +1,5 @@
 
-# 5G UE Simulator - L2 Protocol Stack
+# 5G UE Simulator - L2 Protocol Stack (prototype)
 
 A high-quality C++17 implementation of a User Equipment (UE) simulator for 5G networks, compliant with 3GPP specifications (TS 38.321, 38.322, 38.323).
 
