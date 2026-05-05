@@ -1,7 +1,9 @@
 
-# 5G UE Simulator - L2 Protocol Stack (prototype)
+# 5G UE Simulator - L2 Protocol Stack (Educational Prototype)
 
-A high-quality C++17 implementation of a User Equipment (UE) simulator for 5G networks, compliant with 3GPP specifications (TS 38.321, 38.322, 38.323).
+A C++17 educational prototype for learning 5G User Equipment (UE) L2 protocol stack, inspired by 3GPP specifications (TS 38.321, 38.322, 38.323).
+
+> **⚠️ DISCLAIMER**: This is a **non-commercial educational prototype** created for learning purposes only. It is a free learning tool developed as a fun experiment with AI assistance. Not intended for production use.
 
 **New to this project?** Start with [doc/HOW_IT_WORKS.md](doc/HOW_IT_WORKS.md) for a simple, straightforward explanation.
 
@@ -753,13 +755,26 @@ This simulator is designed for:
 
 ## 👨‍💻 Author
 
-Educational prototype demonstrating C++17 expertise and 3GPP protocol knowledge.
+**Purpose**: Educational toy for learning 5G L2 protocol stack  
+**Nature**: Non-commercial, free learning tool  
+**Development**: Created as a fun experiment with AI assistance  
+**Target Audience**: Students, hobbyists, and anyone curious about 5G protocols
 
 ---
 
 ## 📄 License
 
-Educational prototype - Demonstrates C++ expertise and 3GPP protocol knowledge.
+**Free Educational Prototype** - Non-commercial use only.
+
+This project is:
+- ✅ Free to use for learning
+- ✅ Free to modify for educational purposes
+- ✅ Free to share with attribution
+- ❌ Not for commercial use
+- ❌ Not production-ready
+- ❌ No warranty or support provided
+
+**Created with AI assistance** as a learning experiment.
 
 ---
 
@@ -780,3 +795,12 @@ This is a prototype for demonstration purposes. For production use:
 For questions about 3GPP compliance or architecture decisions, refer to:
 - 3GPP specifications (www.3gpp.org)
 - C++ Core Guidelines (isocpp.github.io)
+
+**Note**: This is a hobby project with no official support. Use at your own risk.
+
+---
+
+**🎓 Educational Prototype Project**  
+**🆓 Free & Non-Commercial**  
+**🤖 Created with AI Assistance**  
+**📚 For Learning Purposes Only**
