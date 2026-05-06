@@ -18,6 +18,7 @@ bool PDCPLayer::receivePDU(PDU& pdu) {
     return false;
 }
 
+
 Statistics PDCPLayer::getStatistics() const {
     std::lock_guard<std::mutex> lock(mutex_);
     return stats_;

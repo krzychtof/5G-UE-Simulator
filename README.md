@@ -674,7 +674,7 @@ Key metrics from real execution:
 ### 🔮 Future Extensions
 - [ ] RLC AM mode with ARQ
 - [ ] HARQ (Hybrid ARQ)
-- [ ] DPDK integration
+- [ ] DPDK integration (see [doc/DPDK.md](doc/DPDK.md))
 - [ ] Network slicing support
 - [ ] Ultra-low latency mode (<1ms)
 
