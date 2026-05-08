@@ -5,6 +5,62 @@ A C++17 educational prototype for learning 5G User Equipment (UE) L2 protocol st
 
 > **⚠️ DISCLAIMER**: This is a **non-commercial educational prototype** created for learning purposes only. It is a free learning tool developed as a fun experiment with AI assistance. Not intended for production use.
 
+## 🎯 What Is This Simulator For?
+
+This simulator **pretends to be a 5G phone** and shows how data is processed in the L2 (Data Link Layer) before being transmitted over the radio.
+
+### 🎓 Main Purpose: LEARNING
+
+This is an **educational toy** for learning how the L2 protocol stack works in 5G networks:
+
+```
+Your data → PDCP → RLC → MAC → Radio 📡
+```
+
+### 🔍 What Does It Do Specifically?
+
+1. **Simulates 3 protocol layers in 5G:**
+   - **PDCP** - Packages data (adds headers)
+   - **RLC** - Splits into pieces and queues them
+   - **MAC** - Decides when to send
+
+2. **Shows in real-time:**
+   - How packets are processed
+   - How long it takes (latency)
+   - Transmission statistics
+
+3. **Generates test network traffic** and measures performance
+
+### 📊 Example Output:
+
+```
+[RLC] Segmented PDU ID=0 size=873B priority=1
+[MAC] Transmitted PDU ID=0 latency=25ms
+[RLC] Segmented PDU ID=1 size=785B priority=3
+[MAC] Transmitted PDU ID=1 latency=78ms
+
+=== MAC STATISTICS ===
+Transmitted packets: 20
+Total bytes: 16662
+RLC queue size: 0
+```
+
+### ✅ Who Is This For?
+
+- Students learning 5G
+- Developers wanting to understand 3GPP protocols
+- Anyone curious about how a 5G phone works internally
+
+### ⚠️ What This Is NOT:
+
+- ❌ Not a real 5G phone
+- ❌ Does not connect to real networks
+- ❌ Not production-ready
+
+**In short:** An interactive textbook showing how a 5G phone processes data before sending - perfect for learning by doing! 🎯
+
+---
+
 **New to this project?** Start with [doc/HOW_IT_WORKS.md](doc/HOW_IT_WORKS.md) for a simple, straightforward explanation.
 
 ## 📋 Table of Contents
